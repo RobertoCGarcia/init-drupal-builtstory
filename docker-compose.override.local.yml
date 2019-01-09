@@ -43,8 +43,6 @@ services:
       - 'traefik.port=9000'
       - 'traefik.frontend.rule=Host:adminer.${PROJECT_BASE_URL}'
 
-
-
   gulp:
     build: docker/gulp
     container_name: "${PROJECT_NAME}_gulp"
