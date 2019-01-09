@@ -962,7 +962,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:creativepropulsionlabs/cpl_paragraphs.git",
-                "reference": "d9d078ee1e14b398e41111840b48ea130a1d9cf5"
+                "reference": "4a0c7526db16953728b4cd1c1de884f843a6fa3c"
             },
             "require": {
                 "drupal/allowed_formats": "*",
@@ -971,6 +971,7 @@
                 "drupal/features": "*",
                 "drupal/field_collection": "~3",
                 "drupal/field_group": "^3.0",
+                "drupal/filefield_paths": "*",
                 "drupal/image_url_formatter": "*",
                 "drupal/metatag": "*",
                 "drupal/paragraphs": "*",
@@ -986,7 +987,7 @@
             },
             "type": "drupal-module",
             "description": "CPL Base Paragraphs",
-            "time": "2019-01-08T08:05:55+00:00"
+            "time": "2019-01-09T07:54:36+00:00"
         },
         {
             "name": "creativepropulsionlabs/cpl_starter_kit",
@@ -3847,6 +3848,61 @@
             "homepage": "https://www.drupal.org/project/file_entity",
             "support": {
                 "source": "http://cgit.drupalcode.org/file_entity"
+            }
+        },
+        {
+            "name": "drupal/filefield_paths",
+            "version": "1.0.0-beta1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/filefield_paths",
+                "reference": "8.x-1.0-beta1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/filefield_paths-8.x-1.0-beta1.zip",
+                "reference": "8.x-1.0-beta1",
+                "shasum": "3d74e96b1c8b7e02970be0b41643e8b3a617d008"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-beta1",
+                    "datestamp": "1451020739",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Deciphered",
+                    "homepage": "https://www.drupal.org/user/103796"
+                },
+                {
+                    "name": "dpagini",
+                    "homepage": "https://www.drupal.org/user/1802126"
+                },
+                {
+                    "name": "voleger",
+                    "homepage": "https://www.drupal.org/user/3260314"
+                }
+            ],
+            "description": "Adds improved Token based file sorting and renaming functionalities.",
+            "homepage": "https://www.drupal.org/project/filefield_paths",
+            "support": {
+                "source": "http://cgit.drupalcode.org/filefield_paths"
             }
         },
         {
