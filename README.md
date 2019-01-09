@@ -128,7 +128,7 @@ Run via `../vendor/bin/drupal`
 
 # Gulp
 
-By default, the gulp watcher started in mbio theme.
+By default, the gulp watcher started in builtstory theme.
 To change the theme, you need to change ENV variable in gulp service, inside docker-compose.yml file
 `GULP_THEME: cpl_base` -> `GULP_THEME: [theme]`
 and run
