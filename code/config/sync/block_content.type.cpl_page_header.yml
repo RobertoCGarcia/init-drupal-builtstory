@@ -1,0 +1,10 @@
+uuid: 67228a85-b11f-4231-8693-fd75fec3f023
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 3kK9NAEmSxeCq-m3Zmdwqci9jAh3l0EbAfAW3Qa27kE
+id: cpl_page_header
+label: 'CPL Page Header'
+revision: 0
+description: 'Page header block.'

@@ -1,0 +1,23 @@
+uuid: e01f1797-d153-40ec-bb3c-e04b4aefec89
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_reveal_type
+    - paragraphs.paragraphs_type.txt
+  module:
+    - options
+_core:
+  default_config_hash: S1fr8me60sQaX2aL7uAAX1UUJx2SPGBb4qa0i_xIZC0
+id: paragraph.txt.field_par_reveal_type
+field_name: field_par_reveal_type
+entity_type: paragraph
+bundle: txt
+label: 'Reveal Type'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

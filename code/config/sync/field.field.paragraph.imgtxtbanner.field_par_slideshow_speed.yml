@@ -1,0 +1,25 @@
+uuid: 3aa1f986-f001-44d0-aca0-6bc499161cff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_slideshow_speed
+    - paragraphs.paragraphs_type.imgtxtbanner
+  module:
+    - options
+_core:
+  default_config_hash: '-VMMJFn2lxLnEL6AsXxNGz1sbvC69Q1pcBR2HBivk44'
+id: paragraph.imgtxtbanner.field_par_slideshow_speed
+field_name: field_par_slideshow_speed
+entity_type: paragraph
+bundle: imgtxtbanner
+label: 'Slideshow Speed'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: SN
+default_value_callback: ''
+settings: {  }
+field_type: list_string

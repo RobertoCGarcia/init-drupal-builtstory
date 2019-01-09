@@ -1,0 +1,29 @@
+uuid: 491c080b-1709-4f74-84c2-07bad101a564
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: 9Sx__tGw_l1Ub3mV3KPQQSOpJh0ypEPaxtCYKAMfIFA
+id: paragraph.field_par_background_file_pos
+field_name: field_par_background_file_pos
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: PC
+      label: Cover
+    -
+      value: PR
+      label: 'Repeat X & Y'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

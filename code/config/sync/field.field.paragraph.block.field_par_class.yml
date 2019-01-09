@@ -1,0 +1,21 @@
+uuid: 171d87ed-8e27-4885-b69a-b83efa2f6f56
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_class
+    - paragraphs.paragraphs_type.block
+_core:
+  default_config_hash: C1h4t4niwrpEkqIaIYj8IXt6vpai4rwPncW9zj3ZpNA
+id: paragraph.block.field_par_class
+field_name: field_par_class
+entity_type: paragraph
+bundle: block
+label: 'Additional Class'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

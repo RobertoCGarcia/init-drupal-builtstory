@@ -1,0 +1,267 @@
+uuid: ccedc133-9175-4d39-b491-31d233286c67
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.txt.field_par_background_color
+    - field.field.paragraph.txt.field_par_background_file
+    - field.field.paragraph.txt.field_par_background_file_pos
+    - field.field.paragraph.txt.field_par_class
+    - field.field.paragraph.txt.field_par_constraint
+    - field.field.paragraph.txt.field_par_constraint_text
+    - field.field.paragraph.txt.field_par_description
+    - field.field.paragraph.txt.field_par_heading_color
+    - field.field.paragraph.txt.field_par_link
+    - field.field.paragraph.txt.field_par_link_options
+    - field.field.paragraph.txt.field_par_parallax
+    - field.field.paragraph.txt.field_par_position
+    - field.field.paragraph.txt.field_par_reveal_direction
+    - field.field.paragraph.txt.field_par_reveal_direction_sec
+    - field.field.paragraph.txt.field_par_reveal_type
+    - field.field.paragraph.txt.field_par_tags
+    - field.field.paragraph.txt.field_par_text_1
+    - field.field.paragraph.txt.field_par_text_2
+    - field.field.paragraph.txt.field_par_text_box_options
+    - field.field.paragraph.txt.field_par_visibility
+    - field.field.paragraph.txt.field_par_vmargin
+    - field.field.paragraph.txt.field_par_vpadding
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.txt
+  module:
+    - allowed_formats
+    - field_group
+    - link
+    - svg_image
+    - text
+third_party_settings:
+  field_group:
+    group_content:
+      children:
+        - field_par_text_1
+        - field_par_tags
+        - field_par_text_2
+        - field_par_link
+        - field_par_link_options
+      parent_name: ''
+      weight: 3
+      format_type: details
+      format_settings:
+        id: ''
+        classes: ''
+        open: false
+        required_fields: false
+      label: Content
+      region: content
+    group_display:
+      children:
+        - field_par_parallax
+        - field_par_reveal_type
+        - field_par_reveal_direction
+        - field_par_reveal_direction_sec
+      parent_name: ''
+      weight: 4
+      format_type: details
+      format_settings:
+        id: ''
+        classes: ''
+        open: false
+        required_fields: false
+      label: Display
+      region: content
+    group_container:
+      children:
+        - field_par_constraint
+        - field_par_vmargin
+        - field_par_vpadding
+        - field_par_background_color
+        - field_par_background_file
+        - field_par_background_file_pos
+        - field_par_visibility
+        - field_par_class
+      parent_name: ''
+      weight: 2
+      format_type: details
+      format_settings:
+        id: ''
+        classes: ''
+        open: false
+        required_fields: false
+      label: Container
+      region: content
+    group_text_box:
+      children:
+        - field_par_heading_color
+        - field_par_text_box_options
+        - field_par_constraint_text
+        - field_par_position
+      parent_name: ''
+      weight: 1
+      format_type: details
+      format_settings:
+        id: ''
+        classes: ''
+        open: false
+        required_fields: false
+      label: 'Text Box'
+      region: content
+_core:
+  default_config_hash: SBcC46CG7Sm0Eqg1TV_Lg05Hi4f0elkoSgkQVra9Yjk
+id: paragraph.txt.default
+targetEntityType: paragraph
+bundle: txt
+mode: default
+content:
+  field_par_background_color:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_par_background_file:
+    weight: 4
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_par_background_file_pos:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_par_class:
+    type: string_textfield
+    weight: 7
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_par_constraint:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_par_constraint_text:
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_par_description:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_par_heading_color:
+    type: options_select
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_par_link:
+    weight: 8
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_par_link_options:
+    weight: 9
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  field_par_parallax:
+    weight: 9
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_par_position:
+    weight: 7
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_par_reveal_direction:
+    weight: 11
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_par_reveal_direction_sec:
+    weight: 12
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_par_reveal_type:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_par_tags:
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_par_text_1:
+    weight: 5
+    settings:
+      rows: 2
+      placeholder: ''
+    third_party_settings:
+      allowed_formats:
+        hide_help: '1'
+        hide_guidelines: '1'
+    type: text_textarea
+    region: content
+  field_par_text_2:
+    weight: 7
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings:
+      allowed_formats:
+        hide_help: '1'
+        hide_guidelines: '1'
+    type: text_textarea
+    region: content
+  field_par_text_box_options:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_par_visibility:
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_par_vmargin:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_par_vpadding:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

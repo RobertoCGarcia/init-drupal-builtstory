@@ -1,0 +1,26 @@
+uuid: c3c21d6f-c90c-4566-9fce-778014af0cd6
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_collection
+    - options
+_core:
+  default_config_hash: 6OZGiXEA-M0YF0syLk-CUP6I_bGAJOSdU0WvJ7bwXI8
+id: field_collection_item.field_parc_link_options
+field_name: field_parc_link_options
+entity_type: field_collection_item
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: BL
+      label: target=_blank
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

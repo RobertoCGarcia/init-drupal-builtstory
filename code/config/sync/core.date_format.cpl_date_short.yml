@@ -1,0 +1,10 @@
+uuid: 6b173e93-c60c-46df-a86e-2740f51f8381
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: H5fi8yonT5n3FbPVWSzSbN6bfw7yqVnU85nuENs77CY
+id: cpl_date_short
+label: 'CPL - Short date'
+locked: false
+pattern: 'F j, Y'

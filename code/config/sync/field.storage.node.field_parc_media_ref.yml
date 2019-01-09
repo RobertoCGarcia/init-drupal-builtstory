@@ -1,0 +1,22 @@
+uuid: f19b9ea6-9347-4dd0-a84f-f08dd1ad8571
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - node
+_core:
+  default_config_hash: m88h-vmr84znFRdgHyU3jW_HKC0dQ5jwdTumAhwmbxY
+id: node.field_parc_media_ref
+field_name: field_parc_media_ref
+entity_type: node
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

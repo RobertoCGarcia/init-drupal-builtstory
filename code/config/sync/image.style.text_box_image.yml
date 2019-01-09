@@ -1,0 +1,17 @@
+uuid: 1b31f41b-669a-4f82-bfe6-05cd3694e6b9
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: _ZLgaSKIKFCBpETm_8UghsX0p35fo9NVRBtqUEFIDWs
+name: text_box_image
+label: 'Text Box Image'
+effects:
+  288f29ba-3d2b-450a-8d56-9ba76a99c940:
+    uuid: 288f29ba-3d2b-450a-8d56-9ba76a99c940
+    id: image_scale
+    weight: 1
+    data:
+      width: 480
+      height: 480
+      upscale: false

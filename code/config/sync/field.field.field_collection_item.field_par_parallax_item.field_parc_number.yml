@@ -1,0 +1,25 @@
+uuid: 0fcb62f1-2bf9-4934-bbb9-af4b78f8a8fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_parc_number
+    - field_collection.field_collection.field_par_parallax_item
+_core:
+  default_config_hash: LVZH8kBAr3yBFyMFjNX2sOt1Z8Mqk5IXhUn8JS8mB6Q
+id: field_collection_item.field_par_parallax_item.field_parc_number
+field_name: field_parc_number
+entity_type: field_collection_item
+bundle: field_par_parallax_item
+label: Number
+description: 'Displays on the left pane in a circle.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: 10
+  prefix: ''
+  suffix: ''
+field_type: integer

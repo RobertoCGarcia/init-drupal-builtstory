@@ -1,0 +1,25 @@
+uuid: e25b36b6-f0cf-4d3e-ae15-8e170b736ff9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_row_style
+    - paragraphs.paragraphs_type.view
+  module:
+    - options
+_core:
+  default_config_hash: PcTNNrZxSWV6t3rnBLRHfqle6KYrk16JLByIdFrZju8
+id: paragraph.view.field_par_row_style
+field_name: field_par_row_style
+entity_type: paragraph
+bundle: view
+label: 'Row Style'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: RS1
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,27 @@
+uuid: f6283d6d-8119-4727-abab-8c30d45c3b87
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_parc_video
+    - field_collection.field_collection.field_par_content_items
+  module:
+    - video_embed_field
+_core:
+  default_config_hash: lIHM9obt9HvJOgeva-1d3FX1UYXYZmiqb-rgDIE0lgA
+id: field_collection_item.field_par_content_items.field_parc_video
+field_name: field_parc_video
+entity_type: field_collection_item
+bundle: field_par_content_items
+label: Video
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    youtube: '0'
+    vimeo: '0'
+    youtube_playlist: '0'
+field_type: video_embed_field

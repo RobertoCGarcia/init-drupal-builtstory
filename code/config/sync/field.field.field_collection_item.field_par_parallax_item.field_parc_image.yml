@@ -1,0 +1,59 @@
+uuid: d75b79e1-ac2b-4c30-abb7-e42a507963f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_parc_image
+    - field_collection.field_collection.field_par_parallax_item
+  module:
+    - filefield_paths
+    - image
+third_party_settings:
+  filefield_paths:
+    enabled: true
+    file_path:
+      value: '[date:custom:Y]-[date:custom:m]'
+      options:
+        slashes: false
+        pathauto: false
+        transliterate: false
+    redirect: false
+    retroactive_update: false
+    active_updating: false
+    file_name:
+      value: '[file:ffp-name-only-original].[file:ffp-extension-original]'
+      options:
+        slashes: false
+        pathauto: false
+        transliterate: false
+_core:
+  default_config_hash: MIpiDEancuDe6giFji3EDTqlqfKLLnTnDicAvU1YfXU
+id: field_collection_item.field_par_parallax_item.field_parc_image
+field_name: field_parc_image
+entity_type: field_collection_item
+bundle: field_par_parallax_item
+label: Image
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

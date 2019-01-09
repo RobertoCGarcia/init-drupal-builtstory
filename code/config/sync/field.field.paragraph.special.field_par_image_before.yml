@@ -1,0 +1,59 @@
+uuid: 533abfbd-71a5-441f-956d-2142b6b7d8eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_image_before
+    - paragraphs.paragraphs_type.special
+  module:
+    - filefield_paths
+    - image
+third_party_settings:
+  filefield_paths:
+    enabled: true
+    file_path:
+      value: '[date:custom:Y]-[date:custom:m]'
+      options:
+        slashes: false
+        pathauto: false
+        transliterate: false
+    redirect: false
+    retroactive_update: false
+    active_updating: false
+    file_name:
+      value: '[file:ffp-name-only-original].[file:ffp-extension-original]'
+      options:
+        slashes: false
+        pathauto: false
+        transliterate: false
+_core:
+  default_config_hash: xDWvfgpDsvSAwNv6nfPBMBMa65goB9XVSASZ9ckLHzw
+id: paragraph.special.field_par_image_before
+field_name: field_par_image_before
+entity_type: paragraph
+bundle: special
+label: 'Image Before'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

@@ -1,0 +1,25 @@
+uuid: 30617360-8b6c-4970-9193-bdd6c22ee3fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_constraint
+    - paragraphs.paragraphs_type.table
+  module:
+    - options
+_core:
+  default_config_hash: W1GrAeh6TiRYGp4Ch4k94bX-ZruQj2MR1tllqS3ElbI
+id: paragraph.table.field_par_constraint
+field_name: field_par_constraint
+entity_type: paragraph
+bundle: table
+label: Constraint
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: FW
+default_value_callback: ''
+settings: {  }
+field_type: list_string

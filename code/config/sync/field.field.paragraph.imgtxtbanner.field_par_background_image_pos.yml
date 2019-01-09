@@ -1,0 +1,25 @@
+uuid: a88d0428-f9ad-4a9e-8477-c769c14a4405
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_background_image_pos
+    - paragraphs.paragraphs_type.imgtxtbanner
+  module:
+    - options
+_core:
+  default_config_hash: Gj-RVxHYi9GOCMxsThPQhJb4J1AzXhCNDPXQRxQzqr8
+id: paragraph.imgtxtbanner.field_par_background_image_pos
+field_name: field_par_background_image_pos
+entity_type: paragraph
+bundle: imgtxtbanner
+label: 'Background Image Position'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: FC
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,16 @@
+uuid: c3a68503-41fd-4cb2-8c33-5cd5e8728321
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_library
+third_party_settings:
+  paragraphs_library:
+    allow_library_conversion: true
+_core:
+  default_config_hash: rH_Z6mXAdUn2480bvxPNiim5MDKBxOAF_90pr66RnOw
+id: embedded_content
+label: 'Embedded content'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

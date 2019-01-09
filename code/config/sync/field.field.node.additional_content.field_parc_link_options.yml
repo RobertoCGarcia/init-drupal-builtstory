@@ -1,0 +1,23 @@
+uuid: c8764269-5e09-4442-b8f9-903c13a3e042
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_parc_link_options
+    - node.type.additional_content
+  module:
+    - options
+_core:
+  default_config_hash: WOVXTT5_1UgkBqmTUSdECovvgOf2MYtToFqsiVw-W4s
+id: node.additional_content.field_parc_link_options
+field_name: field_parc_link_options
+entity_type: node
+bundle: additional_content
+label: 'Links Options'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

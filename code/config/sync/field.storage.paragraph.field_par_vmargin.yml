@@ -1,0 +1,80 @@
+uuid: 9b4964b4-df1d-41ca-9a73-a7424b820c53
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: IDdyoOswIv459jbQOnumoAHKkwyroYeTjOzRIzPUb3U
+id: paragraph.field_par_vmargin
+field_name: field_par_vmargin
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: NP
+      label: 'No Margin'
+    -
+      value: MT1
+      label: 'Margin Top 1'
+    -
+      value: MT2
+      label: 'Margin Top 2'
+    -
+      value: MT3
+      label: 'Margin Top 3'
+    -
+      value: MB1
+      label: 'Margin Bottom 1'
+    -
+      value: MB2
+      label: 'Margin Bottom 2'
+    -
+      value: MB3
+      label: 'Margin Bottom 3'
+    -
+      value: MBO1
+      label: 'Margin Both 1'
+    -
+      value: MBO2
+      label: 'Margin Both 2'
+    -
+      value: MBO3
+      label: 'Margin Both 3'
+    -
+      value: MTN1
+      label: 'Margin Top Negative 1'
+    -
+      value: MTN2
+      label: 'Margin Top Negative 2'
+    -
+      value: MTN3
+      label: 'Margin Top Negative 3'
+    -
+      value: MBN1
+      label: 'Margin Bottom Negative 1'
+    -
+      value: MBN2
+      label: 'Margin Bottom Negative 2'
+    -
+      value: MBN3
+      label: 'Margin Bottom Negative 3'
+    -
+      value: MBON1
+      label: 'Margin Both Negative 1'
+    -
+      value: MBON2
+      label: 'Margin Both Negative 2'
+    -
+      value: MBON3
+      label: 'Margin Both Negative 3'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

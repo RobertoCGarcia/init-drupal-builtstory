@@ -1,0 +1,32 @@
+uuid: ac231be8-aa06-403f-a84f-451ef00a6b85
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: pGEb1_nmZrA9HymDCkwVG9TTnNB9tYG6A5f4RaKl3Vs
+id: paragraph.field_par_reveal_type
+field_name: field_par_reveal_type
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: RC
+      label: Container
+    -
+      value: RR
+      label: Row
+    -
+      value: RI
+      label: 'Image and Textbox (independent)'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,21 @@
+uuid: 560556ff-9978-4ef9-b818-b41c57e0aa7d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_description
+    - paragraphs.paragraphs_type.txt
+_core:
+  default_config_hash: BJxS0Y-mnoLu7zOB05Ie-ftYGrv3dQgwRnlSe9FIXig
+id: paragraph.txt.field_par_description
+field_name: field_par_description
+entity_type: paragraph
+bundle: txt
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

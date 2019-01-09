@@ -1,0 +1,21 @@
+uuid: 3d21e629-d3c7-4feb-a43c-97971411726e
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_collection
+    - video_embed_field
+_core:
+  default_config_hash: JK5NQZ-VyQ6fSsLiMSF6c5D0HyEV6P_4iB8X9kXz7xo
+id: field_collection_item.field_parc_video
+field_name: field_parc_video
+entity_type: field_collection_item
+type: video_embed_field
+settings: {  }
+module: video_embed_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

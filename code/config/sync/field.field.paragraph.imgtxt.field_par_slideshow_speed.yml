@@ -1,0 +1,25 @@
+uuid: 63366b07-ac9b-448b-8883-4c18369203e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_slideshow_speed
+    - paragraphs.paragraphs_type.imgtxt
+  module:
+    - options
+_core:
+  default_config_hash: KUGTltNPM5NJvVeqdh_Ddt-V45bw_CennZ_LdrVQyrQ
+id: paragraph.imgtxt.field_par_slideshow_speed
+field_name: field_par_slideshow_speed
+entity_type: paragraph
+bundle: imgtxt
+label: 'Slideshow Speed'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: SN
+default_value_callback: ''
+settings: {  }
+field_type: list_string

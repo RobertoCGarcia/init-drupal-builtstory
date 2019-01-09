@@ -1,0 +1,142 @@
+uuid: f2f90c7e-19cf-4cfa-a854-70e0be4051e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.embed_in_paragraph
+    - field.field.node.additional_content.field_parc_body
+    - field.field.node.additional_content.field_parc_header
+    - field.field.node.additional_content.field_parc_id
+    - field.field.node.additional_content.field_parc_image
+    - field.field.node.additional_content.field_parc_link
+    - field.field.node.additional_content.field_parc_link_options
+    - field.field.node.additional_content.field_parc_link_type
+    - field.field.node.additional_content.field_parc_location
+    - field.field.node.additional_content.field_parc_media_ref
+    - field.field.node.additional_content.field_parc_media_type
+    - field.field.node.additional_content.field_parc_video
+    - field.field.node.additional_content.field_parc_video_link
+    - field.field.node.additional_content.field_parc_webform
+    - image.style.max_2600x2600
+    - node.type.additional_content
+  module:
+    - link
+    - options
+    - svg_image
+    - text
+    - user
+    - video_embed_field
+    - webform
+_core:
+  default_config_hash: QCeD8-5PsLIoRYlmu_Y3F7c06uXOUcxwfgQbSJsWDJA
+id: node.additional_content.embed_in_paragraph
+targetEntityType: node
+bundle: additional_content
+mode: embed_in_paragraph
+content:
+  field_parc_body:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_parc_header:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_parc_id:
+    type: string
+    weight: 9
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_parc_image:
+    weight: 3
+    label: hidden
+    settings:
+      image_style: max_2600x2600
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_parc_link:
+    type: link_separate
+    weight: 6
+    region: content
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+  field_parc_link_options:
+    type: list_key
+    weight: 10
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_parc_link_type:
+    type: list_default
+    weight: 5
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_parc_media_ref:
+    type: entity_reference_entity_view
+    weight: 8
+    region: content
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+  field_parc_media_type:
+    type: list_key
+    weight: 2
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_parc_video:
+    type: video_embed_field_video
+    weight: 4
+    region: content
+    label: hidden
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: false
+    third_party_settings: {  }
+  field_parc_video_link:
+    type: video_embed_field_video
+    weight: 7
+    region: content
+    label: hidden
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: false
+    third_party_settings: {  }
+  field_parc_webform:
+    type: webform_entity_reference_entity_view
+    weight: 11
+    region: content
+    label: hidden
+    settings:
+      source_entity: true
+    third_party_settings: {  }
+hidden:
+  field_parc_location: true
+  links: true

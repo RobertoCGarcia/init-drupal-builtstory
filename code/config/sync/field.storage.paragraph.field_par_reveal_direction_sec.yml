@@ -1,0 +1,35 @@
+uuid: 91bc41cd-f5cd-4467-aeb0-aeb532fa20f2
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: kTHmMq0iTD0QaU7fjKQdNQCxfDw2_nFIBiK8RrAmrvU
+id: paragraph.field_par_reveal_direction_sec
+field_name: field_par_reveal_direction_sec
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: DL
+      label: Left
+    -
+      value: DR
+      label: Right
+    -
+      value: DT
+      label: Top
+    -
+      value: DB
+      label: Bottom
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

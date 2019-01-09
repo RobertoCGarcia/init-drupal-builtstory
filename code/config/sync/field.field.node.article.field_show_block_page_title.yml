@@ -1,0 +1,25 @@
+uuid: 2f973798-eaf8-4aad-b511-38abecdb8b1f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_block_page_title
+    - node.type.article
+_core:
+  default_config_hash: thmGXHPWUPydcCLoLbfRpEzK9S1DnRYPwT68_AeJIEc
+id: node.article.field_show_block_page_title
+field_name: field_show_block_page_title
+entity_type: node
+bundle: article
+label: 'Show Page Title'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

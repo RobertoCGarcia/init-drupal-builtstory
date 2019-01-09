@@ -1,0 +1,10 @@
+uuid: fdfcefcc-3147-41c1-9497-258759e0c939
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 8nvYG_wJiQyVEPbHK4b8zhDfkLRzzgPqt0Obxisecuo
+id: cpl_form_reference
+label: 'CPL Form Reference'
+revision: 0
+description: 'Displays logo, text and form.'

@@ -1,0 +1,25 @@
+uuid: 607ea295-ae2b-4c57-bfbd-742368a581ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_visibility
+    - paragraphs.paragraphs_type.imgtxtbanner
+  module:
+    - options
+_core:
+  default_config_hash: 2FRh7ZfkYSr9FzKx2XA-BDqUhb7cKKB-U92fXYtD5c4
+id: paragraph.imgtxtbanner.field_par_visibility
+field_name: field_par_visibility
+entity_type: paragraph
+bundle: imgtxtbanner
+label: Visibility
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: VA
+default_value_callback: ''
+settings: {  }
+field_type: list_string

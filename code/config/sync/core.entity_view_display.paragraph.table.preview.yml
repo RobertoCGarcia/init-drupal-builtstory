@@ -1,0 +1,45 @@
+uuid: ffdff6a3-c2aa-4c65-881d-51d1f57f60b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.table.field_par_background_color
+    - field.field.paragraph.table.field_par_class
+    - field.field.paragraph.table.field_par_constraint
+    - field.field.paragraph.table.field_par_description
+    - field.field.paragraph.table.field_par_displayed_con
+    - field.field.paragraph.table.field_par_table
+    - field.field.paragraph.table.field_par_text_box_options
+    - field.field.paragraph.table.field_par_view_ref
+    - field.field.paragraph.table.field_par_visibility
+    - field.field.paragraph.table.field_par_vmargin
+    - field.field.paragraph.table.field_par_vpadding
+    - paragraphs.paragraphs_type.table
+_core:
+  default_config_hash: hCED37NFQAKnoJsR9nr8MUzOxiei-Siz6CIawCvcpLI
+id: paragraph.table.preview
+targetEntityType: paragraph
+bundle: table
+mode: preview
+content:
+  field_par_description:
+    type: string
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  field_par_background_color: true
+  field_par_class: true
+  field_par_constraint: true
+  field_par_displayed_con: true
+  field_par_product_ref: true
+  field_par_table: true
+  field_par_text_box_options: true
+  field_par_view_ref: true
+  field_par_visibility: true
+  field_par_vmargin: true
+  field_par_vpadding: true

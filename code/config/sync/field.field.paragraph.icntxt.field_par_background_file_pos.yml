@@ -1,0 +1,23 @@
+uuid: 2154b3d0-4fcc-4aa2-b72c-54a51c9db678
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_background_file_pos
+    - paragraphs.paragraphs_type.icntxt
+  module:
+    - options
+_core:
+  default_config_hash: '-NHYfioVXyga8144RQcwrURfsBvcw3t0stDIXFdLWiY'
+id: paragraph.icntxt.field_par_background_file_pos
+field_name: field_par_background_file_pos
+entity_type: paragraph
+bundle: icntxt
+label: 'Background Image File Position'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

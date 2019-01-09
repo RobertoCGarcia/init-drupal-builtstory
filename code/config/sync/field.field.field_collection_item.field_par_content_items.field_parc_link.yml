@@ -1,0 +1,25 @@
+uuid: b1ba3957-709a-4131-9ec4-16f8cf84f59b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_parc_link
+    - field_collection.field_collection.field_par_content_items
+  module:
+    - link
+_core:
+  default_config_hash: 4NpXQXVVOdL38hHAMQjAdnEoRL4Rf0agBlmAzhqNaNE
+id: field_collection_item.field_par_content_items.field_parc_link
+field_name: field_parc_link
+entity_type: field_collection_item
+bundle: field_par_content_items
+label: 'Link '
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

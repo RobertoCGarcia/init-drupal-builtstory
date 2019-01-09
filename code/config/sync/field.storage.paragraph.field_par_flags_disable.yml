@@ -1,0 +1,20 @@
+uuid: 8e712b23-b275-442c-8366-c0bc17bb796b
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: FFPbPerDtz5Z52cwm00baRx5dVPOvZqquHLUS_CYXSE
+id: paragraph.field_par_flags_disable
+field_name: field_par_flags_disable
+entity_type: paragraph
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

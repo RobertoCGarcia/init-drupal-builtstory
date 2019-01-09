@@ -1,0 +1,8 @@
+uuid: 377c9479-f5fe-4be7-a89e-ffa30373b162
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sECXnLFiHfRHfuNmdp45cS7zHlfVedJEMVV5obslFVo
+id: field_par_parallax_item
+label: field_par_parallax_item

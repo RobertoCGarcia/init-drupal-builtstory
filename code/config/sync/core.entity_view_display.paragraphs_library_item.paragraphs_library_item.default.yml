@@ -1,0 +1,25 @@
+uuid: cb9811ad-2def-4771-a305-5c158bc1617f
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - paragraphs_library
+_core:
+  default_config_hash: 4JU7nghovB5sprEUq8jHZvNsi6_WFT9FDmfQRsWtCoI
+id: paragraphs_library_item.paragraphs_library_item.default
+targetEntityType: paragraphs_library_item
+bundle: paragraphs_library_item
+mode: default
+content:
+  paragraphs:
+    label: hidden
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    region: content
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+hidden:
+  label: true

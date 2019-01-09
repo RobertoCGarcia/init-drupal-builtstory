@@ -1,0 +1,16 @@
+uuid: d8c8bbcb-2cb3-4a68-9c0e-0c427d1fedfc
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_library
+third_party_settings:
+  paragraphs_library:
+    allow_library_conversion: true
+_core:
+  default_config_hash: L1scglxJ6Rwocqgv-zMzN8aq6eSt8IRRh1Mlbs1nIWo
+id: imgtxtbanner
+label: 'Image Text Banner'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

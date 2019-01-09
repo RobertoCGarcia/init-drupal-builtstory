@@ -1,0 +1,38 @@
+uuid: 0473c682-c309-43ae-90e9-f7f2c70df9a0
+langcode: en
+status: true
+dependencies:
+  module:
+    - cpl_paragraphs
+    - paragraphs_library
+_core:
+  default_config_hash: '-4AMBxE3ia_cYF3v0s8-UwUCp6xfaHrC2gLkdGzGJ4I'
+id: paragraphs_library_item.paragraphs_library_item.default
+targetEntityType: paragraphs_library_item
+bundle: paragraphs_library_item
+mode: default
+content:
+  label:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  paragraphs:
+    type: cpl_paragraphs_widget
+    weight: 1
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: button
+      form_display_mode: default
+      default_paragraph_type: _none
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

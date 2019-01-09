@@ -1,0 +1,23 @@
+uuid: f38a7b7f-76b2-4c24-92a0-350d618de694
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_parc_link_type
+    - node.type.additional_content
+  module:
+    - options
+_core:
+  default_config_hash: HlnvwnKr1zpY-I-DItvyx25uBq2_0ILsKWkrkZ4b2Jk
+id: node.additional_content.field_parc_link_type
+field_name: field_parc_link_type
+entity_type: node
+bundle: additional_content
+label: 'Link Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

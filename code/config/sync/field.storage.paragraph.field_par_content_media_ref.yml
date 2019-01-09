@@ -1,0 +1,22 @@
+uuid: 26e36e96-e6ee-4ed5-a2aa-6f949fd9c8f5
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - paragraphs
+_core:
+  default_config_hash: p22gMDhgsaVryq1C0FjNZuxxhRnh-StV9SqZJIENbh0
+id: paragraph.field_par_content_media_ref
+field_name: field_par_content_media_ref
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

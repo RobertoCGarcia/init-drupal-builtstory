@@ -1,0 +1,25 @@
+uuid: 970008bd-284e-4869-871b-aa75abf39596
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_media_type
+    - paragraphs.paragraphs_type.imgtxtbanner
+  module:
+    - options
+_core:
+  default_config_hash: ncNqlOUvgJWlWLfQttR7P9WgfoeNfbR_O5_puCFuHhM
+id: paragraph.imgtxtbanner.field_par_media_type
+field_name: field_par_media_type
+entity_type: paragraph
+bundle: imgtxtbanner
+label: 'Background Type'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: IM
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,21 @@
+uuid: 778cbb8f-1d31-4603-84dd-81b66252fa35
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - tablefield
+_core:
+  default_config_hash: 9ULQ7ayZhiBRinpXjJLM4qZEkTMBQL5v8Wwn7wAQDMs
+id: paragraph.field_par_table
+field_name: field_par_table
+entity_type: paragraph
+type: tablefield
+settings: {  }
+module: tablefield
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

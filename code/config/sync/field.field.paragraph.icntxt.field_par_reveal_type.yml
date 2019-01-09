@@ -1,0 +1,23 @@
+uuid: 733c0c1b-ef30-4a50-a0bc-4126c295e030
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_reveal_type
+    - paragraphs.paragraphs_type.icntxt
+  module:
+    - options
+_core:
+  default_config_hash: 2qB0OhZYgskt9x2XO-_mooljsA8ZImnOQF_4YTrCSVM
+id: paragraph.icntxt.field_par_reveal_type
+field_name: field_par_reveal_type
+entity_type: paragraph
+bundle: icntxt
+label: 'Reveal Type'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

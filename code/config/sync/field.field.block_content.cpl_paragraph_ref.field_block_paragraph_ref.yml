@@ -1,0 +1,29 @@
+uuid: d08a6d32-c8eb-4bbe-b40a-7f678621d303
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cpl_paragraph_ref
+    - field.storage.block_content.field_block_paragraph_ref
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: TH_gLRyD2v1VdZlPIfWxpHshsC0wszjUWLGyg1mRBn8
+id: block_content.cpl_paragraph_ref.field_block_paragraph_ref
+field_name: field_block_paragraph_ref
+entity_type: block_content
+bundle: cpl_paragraph_ref
+label: 'Paragraph Reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraphs_library_item'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference_revisions

@@ -1,0 +1,25 @@
+uuid: a7215211-5316-44db-ada8-9a52b711800a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cpl_mobile_menu
+    - field.storage.block_content.field_block_text_color
+  module:
+    - options
+_core:
+  default_config_hash: DaDk0F6w3sMKSPtOaVl1z0M9wc_3xWVSGxQJww3jqWo
+id: block_content.cpl_mobile_menu.field_block_text_color
+field_name: field_block_text_color
+entity_type: block_content
+bundle: cpl_mobile_menu
+label: 'Text Color'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: None
+default_value_callback: ''
+settings: {  }
+field_type: list_string

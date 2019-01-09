@@ -1,0 +1,60 @@
+uuid: 427c8965-0e48-4309-9bf7-e720799b42ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.column.field_par_large
+    - field.field.paragraph.column.field_par_medium
+    - field.field.paragraph.column.field_par_paragraphs
+    - field.field.paragraph.column.field_par_small
+    - field.field.paragraph.column.field_par_xlarge
+    - paragraphs.paragraphs_type.column
+  module:
+    - cpl_paragraphs
+_core:
+  default_config_hash: AjbPmtDocuPcQMiQlneY-bkPkQ0tsU1gZ2Zs8ZBHGnY
+id: paragraph.column.default
+targetEntityType: paragraph
+bundle: column
+mode: default
+content:
+  field_par_large:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  field_par_medium:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  field_par_paragraphs:
+    type: cpl_paragraphs_widget
+    weight: 0
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      add_mode: button
+      form_display_mode: default
+      default_paragraph_type: _none
+    third_party_settings: {  }
+    region: content
+  field_par_small:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  field_par_xlarge:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

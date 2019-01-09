@@ -1,0 +1,35 @@
+uuid: 76f5a25c-4b4b-4ec7-9618-ca8fe0d5a780
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - options
+_core:
+  default_config_hash: jcH2_m4LbO7VCURpJ9N0H-u4jTo8RxeSrT6lppn1KKA
+id: block_content.field_block_header_type
+field_name: field_block_header_type
+entity_type: block_content
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: H1
+      label: 'Header Type 1'
+    -
+      value: H2
+      label: 'Header Type 2'
+    -
+      value: H3
+      label: 'Header Type 3'
+    -
+      value: H4
+      label: 'Header Type 4'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

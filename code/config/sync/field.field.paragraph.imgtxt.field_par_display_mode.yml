@@ -1,0 +1,25 @@
+uuid: 5f7eb08e-d982-4047-ba9c-aca400e04f0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_display_mode
+    - paragraphs.paragraphs_type.imgtxt
+  module:
+    - options
+_core:
+  default_config_hash: EAvSJroNGA3CICD6mW1WnpmsE-F8zZIUxvpUmru-UZE
+id: paragraph.imgtxt.field_par_display_mode
+field_name: field_par_display_mode
+entity_type: paragraph
+bundle: imgtxt
+label: 'Display Mode'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 'OFF'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

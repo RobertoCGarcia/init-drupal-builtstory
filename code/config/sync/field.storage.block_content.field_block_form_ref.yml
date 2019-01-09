@@ -1,0 +1,22 @@
+uuid: ecea48ae-cd3c-4d38-bd9a-ca36e5135d50
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - webform
+_core:
+  default_config_hash: _zSTJL5GtdL97-qK40Gq-KvPEuBOvL0VHsVLHgbHVLI
+id: block_content.field_block_form_ref
+field_name: field_block_form_ref
+entity_type: block_content
+type: webform
+settings:
+  target_type: webform
+module: webform
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

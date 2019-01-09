@@ -1,0 +1,16 @@
+uuid: 0ce3ea83-aea8-4c3d-aac8-33d4bccaaf98
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_library
+third_party_settings:
+  paragraphs_library:
+    allow_library_conversion: true
+_core:
+  default_config_hash: AI5ivAyXJopCwWewPGF0iRQKnzm2DGTXpoo_Sp8_gmM
+id: imgtxt
+label: 'Media Text'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

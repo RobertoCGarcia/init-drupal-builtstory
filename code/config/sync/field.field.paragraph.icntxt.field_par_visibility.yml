@@ -1,0 +1,25 @@
+uuid: f31522eb-836d-4a99-9d42-7d6ff704f3e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_visibility
+    - paragraphs.paragraphs_type.icntxt
+  module:
+    - options
+_core:
+  default_config_hash: t4HjNlisy9NWW533dehPYl6l1N8pLnDivB1uhMRHO8E
+id: paragraph.icntxt.field_par_visibility
+field_name: field_par_visibility
+entity_type: paragraph
+bundle: icntxt
+label: Visibility
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: VA
+default_value_callback: ''
+settings: {  }
+field_type: list_string

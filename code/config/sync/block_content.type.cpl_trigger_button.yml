@@ -1,0 +1,10 @@
+uuid: 38ebb606-dbb9-450c-a17a-e2787afe36af
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 84VuCX_lIy0Tzl63m01c16livjnV4hVbbfT1sD0VZPM
+id: cpl_trigger_button
+label: 'CPL Trigger Button'
+revision: 0
+description: 'Call-to-action button fixed on screen.'

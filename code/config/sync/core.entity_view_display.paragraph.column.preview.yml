@@ -1,0 +1,25 @@
+uuid: 8d348700-1e8e-42c0-92be-7a84f2ce8f59
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.column.field_par_large
+    - field.field.paragraph.column.field_par_medium
+    - field.field.paragraph.column.field_par_paragraphs
+    - field.field.paragraph.column.field_par_small
+    - field.field.paragraph.column.field_par_xlarge
+    - paragraphs.paragraphs_type.column
+_core:
+  default_config_hash: A65VkJh0gDdSjS2OJQJrCgj14FPJNvcGdYLjF_dyoQg
+id: paragraph.column.preview
+targetEntityType: paragraph
+bundle: column
+mode: preview
+content: {  }
+hidden:
+  field_par_large: true
+  field_par_medium: true
+  field_par_paragraphs: true
+  field_par_small: true
+  field_par_xlarge: true

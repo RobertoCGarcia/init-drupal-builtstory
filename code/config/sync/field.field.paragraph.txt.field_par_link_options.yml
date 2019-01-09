@@ -1,0 +1,23 @@
+uuid: 606cc050-ca01-4c94-a48b-378656b63968
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_link_options
+    - paragraphs.paragraphs_type.txt
+  module:
+    - options
+_core:
+  default_config_hash: jG3yzRgYLDcFGGUvY2y1PmEfNpHLNegBJDe77ol1Zws
+id: paragraph.txt.field_par_link_options
+field_name: field_par_link_options
+entity_type: paragraph
+bundle: txt
+label: 'Link Options'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

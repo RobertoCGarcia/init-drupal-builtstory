@@ -1,0 +1,26 @@
+uuid: 2e6ac08b-f3c2-4648-a22e-716f2f933570
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: CbY0CTTspYQdeQb4XMadSGS2e6nQ90CTVTTD84pakMY
+id: paragraph.field_par_link_options
+field_name: field_par_link_options
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: BL
+      label: target=_blank
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

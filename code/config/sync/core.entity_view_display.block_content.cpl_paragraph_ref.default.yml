@@ -1,0 +1,26 @@
+uuid: 88759212-00c3-48a0-b052-2d40d1c6c44f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cpl_paragraph_ref
+    - field.field.block_content.cpl_paragraph_ref.field_block_paragraph_ref
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: _YHvtTUncJLefhnrm2XgzQD-lTSLSi8I-__JV-WiAUw
+id: block_content.cpl_paragraph_ref.default
+targetEntityType: block_content
+bundle: cpl_paragraph_ref
+mode: default
+content:
+  field_block_paragraph_ref:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

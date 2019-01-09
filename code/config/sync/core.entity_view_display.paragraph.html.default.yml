@@ -1,0 +1,26 @@
+uuid: 68e6fe05-53dc-4346-8b16-bc5b870e3208
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.html.field_par_description
+    - field.field.paragraph.html.field_par_html
+    - paragraphs.paragraphs_type.html
+  module:
+    - text
+_core:
+  default_config_hash: vtSgae9NZami-_DM__HS2iYVOJg0K2eL3yHHU0PT2bk
+id: paragraph.html.default
+targetEntityType: paragraph
+bundle: html
+mode: default
+content:
+  field_par_html:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  field_par_description: true

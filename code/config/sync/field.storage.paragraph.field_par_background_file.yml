@@ -1,0 +1,32 @@
+uuid: 0b34ea7e-bcb5-471c-a7a9-50ec475bf91c
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - paragraphs
+_core:
+  default_config_hash: ftLh_IH05FzGYt3eUuHfHD2apKFsd-7oiltnXfCj4SQ
+id: paragraph.field_par_background_file
+field_name: field_par_background_file
+entity_type: paragraph
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

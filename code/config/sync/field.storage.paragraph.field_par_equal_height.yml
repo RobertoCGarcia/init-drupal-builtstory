@@ -1,0 +1,20 @@
+uuid: feb4bd91-86cc-4eab-bc45-e744d0d6ef94
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: 9fnbgQGY_CwPt5AolIaPSK1Owpb_4KbYFl_jz6yGnM4
+id: paragraph.field_par_equal_height
+field_name: field_par_equal_height
+entity_type: paragraph
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

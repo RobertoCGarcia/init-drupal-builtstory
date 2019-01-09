@@ -1,0 +1,58 @@
+uuid: 2cf39cd6-3748-4095-8642-51b15e819616
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.text_paragraph_html
+  module:
+    - ckeditor
+_core:
+  default_config_hash: GmiDslTU5YyFQMzaw7wBoef3Dv14a4IcjhpemWY27zo
+format: text_paragraph_html
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formatting
+          items:
+            - Bold
+            - Italic
+            - Strike
+            - Underline
+            - Superscript
+            - Subscript
+        -
+          name: Links
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Lists
+          items:
+            - BulletedList
+            - NumberedList
+        -
+          name: Tools
+          items:
+            - Styles
+            - Blockquote
+            - Table
+        -
+          name: Source
+          items:
+            - Source
+  plugins:
+    language:
+      language_list: un
+    stylescombo:
+      styles: "p|Paragraph\r\nh1|Heading 1\r\nh2|Heading 2\r\nh3|Heading 3\r\nh4|Heading 4\r\nh5|Heading 5"
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

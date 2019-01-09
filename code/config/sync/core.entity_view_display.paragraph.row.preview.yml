@@ -1,0 +1,28 @@
+uuid: 23ae96d2-d40e-44b0-9f6a-a05d5125e162
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.row.field_par_constraint
+    - field.field.paragraph.row.field_par_description
+    - field.field.paragraph.row.field_par_paragraphs
+    - paragraphs.paragraphs_type.row
+_core:
+  default_config_hash: djn9gUgfw0cSdJ8oIg8SKbch0sF41hjT3yJHju5p8sE
+id: paragraph.row.preview
+targetEntityType: paragraph
+bundle: row
+mode: preview
+content:
+  field_par_description:
+    type: string
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  field_par_constraint: true
+  field_par_paragraphs: true

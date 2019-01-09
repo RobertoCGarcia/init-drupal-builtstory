@@ -1,0 +1,12 @@
+uuid: 730eb9a0-ad9d-4b99-9f42-98eddc1b7a05
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: 8C-yF9IF_AAUntL5M6xHIAjvoy4DrtsYSuwSo5Ezns0
+id: comment.comment_reference
+label: 'Comment Reference'
+targetEntityType: comment
+cache: true

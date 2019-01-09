@@ -1,0 +1,21 @@
+uuid: 41efb041-07cb-4f0e-ba5f-da6bf53a0554
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_description
+    - paragraphs.paragraphs_type.table
+_core:
+  default_config_hash: vDTxRc1-IGc9S8to9hWi2m7gHQG-vFofRYQrWi2jvIY
+id: paragraph.table.field_par_description
+field_name: field_par_description
+entity_type: paragraph
+bundle: table
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

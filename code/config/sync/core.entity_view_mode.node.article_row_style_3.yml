@@ -1,0 +1,12 @@
+uuid: eb27dfb0-d90f-4b94-b363-b3b5dfaa4f79
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: FUwpyoNSr04m1NmjaiWuJ2mH2S4dyFXhsMt52NbtOkY
+id: node.article_row_style_3
+label: 'Article Row Style 3'
+targetEntityType: node
+cache: true

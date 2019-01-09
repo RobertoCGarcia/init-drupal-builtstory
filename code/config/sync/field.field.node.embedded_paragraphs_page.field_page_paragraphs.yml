@@ -1,0 +1,88 @@
+uuid: e4c11f0b-7e4b-4d20-acfa-3a1f7b5cdcd8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_page_paragraphs
+    - node.type.embedded_paragraphs_page
+    - paragraphs.paragraphs_type.block
+    - paragraphs.paragraphs_type.embedded_content
+    - paragraphs.paragraphs_type.from_library
+    - paragraphs.paragraphs_type.html
+    - paragraphs.paragraphs_type.icntxt
+    - paragraphs.paragraphs_type.imgtxt
+    - paragraphs.paragraphs_type.imgtxtbanner
+    - paragraphs.paragraphs_type.row
+    - paragraphs.paragraphs_type.special
+    - paragraphs.paragraphs_type.table
+    - paragraphs.paragraphs_type.txt
+    - paragraphs.paragraphs_type.view
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: pCkmsv732PvYPWwH8xppHVIvPwv8z05hM9jhofJU4rA
+id: node.embedded_paragraphs_page.field_page_paragraphs
+field_name: field_page_paragraphs
+entity_type: node
+bundle: embedded_paragraphs_page
+label: 'Page Paragraphs'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      icntxt: icntxt
+      imgtxt: imgtxt
+      imgtxtbanner: imgtxtbanner
+      txt: txt
+      embedded_content: embedded_content
+      table: table
+      view: view
+      block: block
+      special: special
+      row: row
+      html: html
+      from_library: from_library
+    target_bundles_drag_drop:
+      icntxt:
+        enabled: true
+        weight: -33
+      imgtxt:
+        enabled: true
+        weight: -32
+      imgtxtbanner:
+        enabled: true
+        weight: -31
+      txt:
+        enabled: true
+        weight: -30
+      embedded_content:
+        enabled: true
+        weight: -29
+      table:
+        enabled: true
+        weight: -28
+      view:
+        enabled: true
+        weight: -27
+      block:
+        enabled: true
+        weight: -26
+      special:
+        enabled: true
+        weight: -25
+      row:
+        enabled: true
+        weight: -24
+      html:
+        enabled: true
+        weight: -23
+      from_library:
+        enabled: true
+        weight: -22
+field_type: entity_reference_revisions

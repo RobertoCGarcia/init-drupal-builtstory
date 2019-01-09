@@ -1,0 +1,23 @@
+uuid: 1d8db82c-c161-497a-8754-b95b5c890151
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_reveal_direction
+    - paragraphs.paragraphs_type.txt
+  module:
+    - options
+_core:
+  default_config_hash: dYZQcvrzBOqkfop5638QtsTjW4rQwmu1bWn1T_YtISI
+id: paragraph.txt.field_par_reveal_direction
+field_name: field_par_reveal_direction
+entity_type: paragraph
+bundle: txt
+label: 'Reveal Direction'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

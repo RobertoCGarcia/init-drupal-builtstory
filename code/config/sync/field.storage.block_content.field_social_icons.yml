@@ -1,0 +1,22 @@
+uuid: ceefa8a9-98c0-424e-abdf-e08da87d0d21
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - field_collection
+_core:
+  default_config_hash: 7zXEaIDei9PtIvm6r8VThfilm0L_HahFqXpSZPNyy1M
+id: block_content.field_social_icons
+field_name: field_social_icons
+entity_type: block_content
+type: field_collection
+settings:
+  target_type: field_collection_item
+module: field_collection
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

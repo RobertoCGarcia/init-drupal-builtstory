@@ -1,0 +1,25 @@
+uuid: 4ed7c160-36ce-4a18-a971-32a3b5b9cf02
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_video_autoplay
+    - paragraphs.paragraphs_type.imgtxt
+_core:
+  default_config_hash: KdckxH8vk5FEVepUXYHwTbjGVBZkbxkZgrIl9FsgsGw
+id: paragraph.imgtxt.field_par_video_autoplay
+field_name: field_par_video_autoplay
+entity_type: paragraph
+bundle: imgtxt
+label: 'Autoplay Video'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

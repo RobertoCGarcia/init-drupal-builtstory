@@ -1,0 +1,17 @@
+uuid: 6b8edd18-ef77-4f18-8d4f-97b1bc28dd1c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rkplyKlFQFfjB7LHG2ktMSJbawKd8SyG5GcNpByYbzM
+name: mobile_menu_teaser_1
+label: 'Mobile Menu Teaser 1'
+effects:
+  50eedb07-5403-425e-9f66-d543528f4237:
+    uuid: 50eedb07-5403-425e-9f66-d543528f4237
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 400
+      height: 500
+      anchor: center-center

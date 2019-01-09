@@ -1,0 +1,33 @@
+uuid: 226a2c42-0707-4923-8d83-8b278387f162
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_paragraphs
+    - paragraphs.paragraphs_type.column
+    - paragraphs.paragraphs_type.row
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: 5BliFcN3SvqJx7_eLDGOJ_nRWPoR24aFEa0Ucar4g5A
+id: paragraph.row.field_par_paragraphs
+field_name: field_par_paragraphs
+entity_type: paragraph
+bundle: row
+label: Columns
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      column: column
+    target_bundles_drag_drop:
+      column:
+        enabled: true
+        weight: 16
+field_type: entity_reference_revisions

@@ -1,0 +1,21 @@
+uuid: b665b87b-f561-4e1e-bb03-1497f7b0f2e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_meta_description
+    - node.type.page
+_core:
+  default_config_hash: XEaKGAhqALio_QO1mg87ZPb-65VHGm5A9zOgrwTFjyo
+id: node.page.field_meta_description
+field_name: field_meta_description
+entity_type: node
+bundle: page
+label: 'Meta Description'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

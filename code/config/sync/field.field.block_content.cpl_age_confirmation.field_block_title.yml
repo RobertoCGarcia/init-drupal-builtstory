@@ -1,0 +1,21 @@
+uuid: 8581b125-5ff8-4053-9704-6f95e1935de3
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cpl_age_confirmation
+    - field.storage.block_content.field_block_title
+_core:
+  default_config_hash: l1hQ4_I5-s83kcZEFRTc3fRsNe5ggf0igA8HUZ6QU6E
+id: block_content.cpl_age_confirmation.field_block_title
+field_name: field_block_title
+entity_type: block_content
+bundle: cpl_age_confirmation
+label: Title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

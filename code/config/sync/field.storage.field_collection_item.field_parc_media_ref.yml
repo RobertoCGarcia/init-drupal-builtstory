@@ -1,0 +1,22 @@
+uuid: bf9c0376-d46d-4e18-b78c-1d372a8b0e84
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_collection
+    - media
+_core:
+  default_config_hash: j3OBSyelxds38jxoi8QzcX79pfiVU8q3EjffdZbG8gw
+id: field_collection_item.field_parc_media_ref
+field_name: field_parc_media_ref
+entity_type: field_collection_item
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

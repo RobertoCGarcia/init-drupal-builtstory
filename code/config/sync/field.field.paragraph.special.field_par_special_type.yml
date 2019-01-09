@@ -1,0 +1,25 @@
+uuid: 7806bc02-69e8-4040-96d6-3b28497b258a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_special_type
+    - paragraphs.paragraphs_type.special
+  module:
+    - options
+_core:
+  default_config_hash: 3qqe4Iop6H64Z7St0-K009l_F1Fr_tfDJLiAFc5S_P0
+id: paragraph.special.field_par_special_type
+field_name: field_par_special_type
+entity_type: paragraph
+bundle: special
+label: 'Paragraph Type'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: PS
+default_value_callback: ''
+settings: {  }
+field_type: list_string

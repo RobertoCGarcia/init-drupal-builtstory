@@ -1,0 +1,29 @@
+uuid: 2efe5773-bde4-4a6c-aa25-fd81e1005fcf
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_collection
+    - options
+_core:
+  default_config_hash: HQe8Wn5Z00z5jLcQw4EYzysAU8qWQs5LBAuwkfsyfeo
+id: field_collection_item.field_parc_media_type
+field_name: field_parc_media_type
+entity_type: field_collection_item
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: IM
+      label: Image
+    -
+      value: VD
+      label: Video
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

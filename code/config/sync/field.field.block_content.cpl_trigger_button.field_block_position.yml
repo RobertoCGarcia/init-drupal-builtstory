@@ -1,0 +1,25 @@
+uuid: 0759397c-7974-4688-bb64-161d2d31dfe0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cpl_trigger_button
+    - field.storage.block_content.field_block_position
+  module:
+    - options
+_core:
+  default_config_hash: C0EPdxTllU2vrkciNJ6AZ3rIbbOu2OP_Ht6Vk5VxFMg
+id: block_content.cpl_trigger_button.field_block_position
+field_name: field_block_position
+entity_type: block_content
+bundle: cpl_trigger_button
+label: Position
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: BR
+default_value_callback: ''
+settings: {  }
+field_type: list_string

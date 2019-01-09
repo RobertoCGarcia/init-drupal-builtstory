@@ -1,0 +1,23 @@
+uuid: 1048d440-c344-4e5e-8b7a-17f6370e31d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_reveal_direction_sec
+    - paragraphs.paragraphs_type.txt
+  module:
+    - options
+_core:
+  default_config_hash: HzYR5O0Rxmz0ThwLu1i6psELt9E0EAWqK8E8Kye9Vgk
+id: paragraph.txt.field_par_reveal_direction_sec
+field_name: field_par_reveal_direction_sec
+entity_type: paragraph
+bundle: txt
+label: 'Reveal Direction Secondary'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

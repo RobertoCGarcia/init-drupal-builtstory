@@ -1,0 +1,35 @@
+uuid: f92c9667-4cc2-49d8-a45a-9ee81b11de96
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+_core:
+  default_config_hash: OBdoNkt3c5fwdKA_EkSeSpSwuHC9m_T0W1fEP7CZ_PU
+id: node.field_parc_link_type
+field_name: field_parc_link_type
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: RE
+      label: 'Regular Link'
+    -
+      value: EX
+      label: 'External Video'
+    -
+      value: IN
+      label: 'Internal Video'
+    -
+      value: ID
+      label: 'ID Anchor'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

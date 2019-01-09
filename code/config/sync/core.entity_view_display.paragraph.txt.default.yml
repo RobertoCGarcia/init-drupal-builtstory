@@ -1,0 +1,91 @@
+uuid: e50ad795-e1fd-436c-981f-3506e5aead8d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.txt.field_par_background_color
+    - field.field.paragraph.txt.field_par_background_file
+    - field.field.paragraph.txt.field_par_background_file_pos
+    - field.field.paragraph.txt.field_par_class
+    - field.field.paragraph.txt.field_par_constraint
+    - field.field.paragraph.txt.field_par_constraint_text
+    - field.field.paragraph.txt.field_par_description
+    - field.field.paragraph.txt.field_par_heading_color
+    - field.field.paragraph.txt.field_par_link
+    - field.field.paragraph.txt.field_par_link_options
+    - field.field.paragraph.txt.field_par_parallax
+    - field.field.paragraph.txt.field_par_position
+    - field.field.paragraph.txt.field_par_reveal_direction
+    - field.field.paragraph.txt.field_par_reveal_direction_sec
+    - field.field.paragraph.txt.field_par_reveal_type
+    - field.field.paragraph.txt.field_par_tags
+    - field.field.paragraph.txt.field_par_text_1
+    - field.field.paragraph.txt.field_par_text_2
+    - field.field.paragraph.txt.field_par_text_box_options
+    - field.field.paragraph.txt.field_par_visibility
+    - field.field.paragraph.txt.field_par_vmargin
+    - field.field.paragraph.txt.field_par_vpadding
+    - paragraphs.paragraphs_type.txt
+  module:
+    - link
+    - options
+    - text
+_core:
+  default_config_hash: brAUXfGasaQqjk-YrLty_WDokQs2aGMXwqmhBiP7rK4
+id: paragraph.txt.default
+targetEntityType: paragraph
+bundle: txt
+mode: default
+content:
+  field_par_link:
+    type: link_separate
+    weight: 2
+    region: content
+    label: hidden
+    settings:
+      trim_length: null
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+  field_par_link_options:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+    region: content
+  field_par_text_1:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_par_text_2:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  field_par_background_color: true
+  field_par_background_file: true
+  field_par_background_file_pos: true
+  field_par_class: true
+  field_par_constraint: true
+  field_par_constraint_text: true
+  field_par_description: true
+  field_par_heading_color: true
+  field_par_parallax: true
+  field_par_position: true
+  field_par_reveal_direction: true
+  field_par_reveal_direction_sec: true
+  field_par_reveal_type: true
+  field_par_tags: true
+  field_par_text_box_options: true
+  field_par_visibility: true
+  field_par_vmargin: true
+  field_par_vpadding: true

@@ -1,0 +1,16 @@
+uuid: 3bc93f88-e177-486a-a3a1-9b00fcf3f00f
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_library
+third_party_settings:
+  paragraphs_library:
+    allow_library_conversion: true
+_core:
+  default_config_hash: LyBOsX05YtdkpJ7OK1DLn6yb4dgVosesEaPg_n7sOAA
+id: table
+label: Table
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

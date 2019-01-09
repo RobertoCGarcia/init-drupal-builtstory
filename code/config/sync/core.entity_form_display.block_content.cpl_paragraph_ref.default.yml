@@ -1,0 +1,37 @@
+uuid: 799bfa36-4e58-4164-acb2-f06654910302
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cpl_paragraph_ref
+    - field.field.block_content.cpl_paragraph_ref.field_block_paragraph_ref
+  module:
+    - paragraphs
+_core:
+  default_config_hash: DA1osuE54GqO-ts2-rcjlkg_fHU_jPYRfckN5fvH00c
+id: block_content.cpl_paragraph_ref.default
+targetEntityType: block_content
+bundle: cpl_paragraph_ref
+mode: default
+content:
+  field_block_paragraph_ref:
+    type: entity_reference_paragraphs
+    weight: 1
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

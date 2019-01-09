@@ -1,0 +1,21 @@
+uuid: c4e6b604-f957-48c1-9ed5-8128823edbd4
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+_core:
+  default_config_hash: GpCH-izX9wO-mtoBzi8QqynerVPhrZnldiM6ED-z1So
+id: paragraph.field_par_text_2
+field_name: field_par_text_2
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

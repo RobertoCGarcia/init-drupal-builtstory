@@ -1,0 +1,10 @@
+uuid: dd308156-d32c-4815-b23e-c11787d1071f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: PupxTe8jDaB_k7q0TA5exTZRAgVy-kFpjOYxzX70i6M
+id: cpl_paragraph_ref
+label: 'CPL Paragraph Reference'
+revision: 0
+description: 'Reference a paragraph from the library.'

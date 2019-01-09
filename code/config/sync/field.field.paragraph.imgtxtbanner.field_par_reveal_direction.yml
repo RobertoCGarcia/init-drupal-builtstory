@@ -1,0 +1,23 @@
+uuid: f99b3c4c-89c1-4d26-a05c-fcd38ada33e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_reveal_direction
+    - paragraphs.paragraphs_type.imgtxtbanner
+  module:
+    - options
+_core:
+  default_config_hash: XCeCDEWeIgQUGnIkx99yeuahruVZjjG_xhYoj8dr8Z0
+id: paragraph.imgtxtbanner.field_par_reveal_direction
+field_name: field_par_reveal_direction
+entity_type: paragraph
+bundle: imgtxtbanner
+label: 'Reveal Direction'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

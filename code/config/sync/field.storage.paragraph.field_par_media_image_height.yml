@@ -1,0 +1,38 @@
+uuid: d0d212ab-9a56-4bd0-888c-5f88e6616e8f
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: xqdBUTBWkvJuAVYX57kpPD98ED7wK72Udf9XaX6SsvQ
+id: paragraph.field_par_media_image_height
+field_name: field_par_media_image_height
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: H1
+      label: 'Height 1'
+    -
+      value: H2
+      label: 'Height 2'
+    -
+      value: SQ
+      label: Square
+    -
+      value: R1
+      label: 4x3
+    -
+      value: R2
+      label: 16x9
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

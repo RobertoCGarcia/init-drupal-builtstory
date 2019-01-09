@@ -1,0 +1,23 @@
+uuid: ec702f9d-8d5e-4f1c-abe8-36e21abcb0d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_parc_link_options
+    - field_collection.field_collection.field_par_content_items
+  module:
+    - options
+_core:
+  default_config_hash: f3RDSLaXQW0zIJCan19Xl0wdhTEiMkspEGYjR71Tj7s
+id: field_collection_item.field_par_content_items.field_parc_link_options
+field_name: field_parc_link_options
+entity_type: field_collection_item
+bundle: field_par_content_items
+label: 'Links Options'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

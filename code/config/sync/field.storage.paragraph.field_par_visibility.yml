@@ -1,0 +1,38 @@
+uuid: 29ecad0a-e038-4469-b5db-056c500b50d6
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: Z02khkBPhse5qRfncRtejkHmtTl9kyjvmv5cJD10QuE
+id: paragraph.field_par_visibility
+field_name: field_par_visibility
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: VA
+      label: 'Show for All Sizes'
+    -
+      value: VM
+      label: 'Show for Medium and Up'
+    -
+      value: VL
+      label: 'Show for Large and Up'
+    -
+      value: VMD
+      label: 'Show for Medium and Down'
+    -
+      value: VSO
+      label: 'Show for Small Only'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

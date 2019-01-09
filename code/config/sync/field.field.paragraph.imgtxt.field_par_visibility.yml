@@ -1,0 +1,25 @@
+uuid: bed96c55-a639-4d1b-9b67-a665413bb8b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_visibility
+    - paragraphs.paragraphs_type.imgtxt
+  module:
+    - options
+_core:
+  default_config_hash: cOV5WjVG7roN6P9RBsj_qYmpEf0FsAih7-hcmGEvR-o
+id: paragraph.imgtxt.field_par_visibility
+field_name: field_par_visibility
+entity_type: paragraph
+bundle: imgtxt
+label: Visibility
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: VA
+default_value_callback: ''
+settings: {  }
+field_type: list_string

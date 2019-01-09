@@ -1,0 +1,26 @@
+uuid: 4dc8daf7-3022-46af-b3c0-32dc52fdb16c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+_core:
+  default_config_hash: shuFy7D5VpP5zxjYIu1cU5p217uf-RroU4XW92ACBC4
+id: node.field_parc_link_options
+field_name: field_parc_link_options
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: BL
+      label: target=_blank
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

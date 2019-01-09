@@ -1,0 +1,29 @@
+uuid: 08848429-237a-465a-b973-563ec09c14a6
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: jyqGyGiQmD2BIzW9IRDJcCBdr6_56oBdzkqMt6VRZSk
+id: paragraph.field_par_parallax
+field_name: field_par_parallax
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: PE1
+      label: 'Parallax Effect 1'
+    -
+      value: PE2
+      label: 'Parallax Effect 2'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

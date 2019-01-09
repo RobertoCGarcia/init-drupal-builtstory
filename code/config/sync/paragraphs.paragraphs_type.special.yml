@@ -1,0 +1,16 @@
+uuid: 6a5c97af-03a6-4f5d-8b20-0635a0bd2ace
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_library
+third_party_settings:
+  paragraphs_library:
+    allow_library_conversion: true
+_core:
+  default_config_hash: PLWrgkVXGsOoUr6mXMqalVq_WbaKrZOwzhayLKNKAYY
+id: special
+label: Special
+icon_uuid: null
+description: 'Special paragraphs: Parallax Slider, Before/After.'
+behavior_plugins: {  }

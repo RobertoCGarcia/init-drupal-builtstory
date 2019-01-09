@@ -1,0 +1,38 @@
+uuid: 5466374a-a62a-4d31-a288-b51c7c74a627
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.field_collection_item.field_social_icons.field_link
+    - field.field.field_collection_item.field_social_icons.field_social_icon
+    - field_collection.field_collection.field_social_icons
+  module:
+    - link
+    - options
+_core:
+  default_config_hash: UPa9rW7ejjvvpqrZuHKQfPAFDuvq1Ah4O2TVgtL5ms4
+id: field_collection_item.field_social_icons.default
+targetEntityType: field_collection_item
+bundle: field_social_icons
+mode: default
+content:
+  field_link:
+    weight: 0
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link_separate
+    region: content
+  field_social_icon:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+hidden: {  }

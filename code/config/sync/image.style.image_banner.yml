@@ -1,0 +1,17 @@
+uuid: 31fc2236-2394-41c5-8e8d-ee82226b1f7d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: L8lUZMvAvQKRVpV-aOHStYIxwwzAOpK_WrLcAsU2nXU
+name: image_banner
+label: 'Image Banner'
+effects:
+  faef68ad-774c-4672-96bb-3bad2d7c09c4:
+    uuid: faef68ad-774c-4672-96bb-3bad2d7c09c4
+    id: image_scale
+    weight: 2
+    data:
+      width: 1800
+      height: 1200
+      upscale: false

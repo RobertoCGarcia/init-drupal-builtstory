@@ -1,0 +1,23 @@
+uuid: 5f42499f-beaf-4a72-90bb-26958d5babef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_reveal_type
+    - paragraphs.paragraphs_type.imgtxtbanner
+  module:
+    - options
+_core:
+  default_config_hash: Tu3V-G5TwJkV_VOpSVHxR4JdSXzq3LE_flSzidUyc8g
+id: paragraph.imgtxtbanner.field_par_reveal_type
+field_name: field_par_reveal_type
+entity_type: paragraph
+bundle: imgtxtbanner
+label: 'Reveal Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

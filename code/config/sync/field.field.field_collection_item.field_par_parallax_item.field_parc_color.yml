@@ -1,0 +1,21 @@
+uuid: 930a0b0c-934e-40c9-ab29-652687a320da
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_parc_color
+    - field_collection.field_collection.field_par_parallax_item
+_core:
+  default_config_hash: XsJjX4S8Tc4yqm9RZTUldzvYkiog_5x6OMA7XbyWZlU
+id: field_collection_item.field_par_parallax_item.field_parc_color
+field_name: field_parc_color
+entity_type: field_collection_item
+bundle: field_par_parallax_item
+label: 'HEX Color'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

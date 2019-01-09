@@ -1,0 +1,75 @@
+uuid: 0d32f5bf-7794-4104-9f70-56172b3726e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.special.field_par_class
+    - field.field.paragraph.special.field_par_constraint
+    - field.field.paragraph.special.field_par_description
+    - field.field.paragraph.special.field_par_image_after
+    - field.field.paragraph.special.field_par_image_before
+    - field.field.paragraph.special.field_par_parallax_item
+    - field.field.paragraph.special.field_par_special_type
+    - field.field.paragraph.special.field_par_visibility
+    - field.field.paragraph.special.field_par_vmargin
+    - field.field.paragraph.special.field_par_vpadding
+    - image.style.max_1300x1300
+    - paragraphs.paragraphs_type.special
+  module:
+    - field_collection
+    - options
+    - svg_image
+_core:
+  default_config_hash: pm83KHcbDtJZlBQN7Px4GoqFHeCQvJ5ofLhH00u3Wg0
+id: paragraph.special.default
+targetEntityType: paragraph
+bundle: special
+mode: default
+content:
+  field_par_constraint:
+    type: list_key
+    weight: 4
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_par_image_after:
+    weight: 3
+    label: hidden
+    settings:
+      image_style: max_1300x1300
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_par_image_before:
+    weight: 2
+    label: hidden
+    settings:
+      image_style: max_1300x1300
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_par_parallax_item:
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    type: field_collection_items
+    region: content
+  field_par_special_type:
+    type: list_key
+    weight: 0
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_par_class: true
+  field_par_description: true
+  field_par_visibility: true
+  field_par_vmargin: true
+  field_par_vpadding: true

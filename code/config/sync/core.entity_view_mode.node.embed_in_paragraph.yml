@@ -1,0 +1,12 @@
+uuid: 1006efc7-60dc-4230-8473-84c86a3be986
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: g-wPxKjVKkcxJ4UdLPz0vu0x-rOhWGaiXxrVo7zRMmg
+id: node.embed_in_paragraph
+label: 'Embed in Paragraph'
+targetEntityType: node
+cache: true

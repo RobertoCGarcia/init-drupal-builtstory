@@ -1,0 +1,21 @@
+uuid: 52819d73-ca82-4e92-a658-c02f6d4f36cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cpl_form_reference
+    - field.storage.block_content.field_block_title
+_core:
+  default_config_hash: b7mmFOqZfCCuGBfWfxtBz29TR4Q07T-4JiNPH7Zvlcg
+id: block_content.cpl_form_reference.field_block_title
+field_name: field_block_title
+entity_type: block_content
+bundle: cpl_form_reference
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

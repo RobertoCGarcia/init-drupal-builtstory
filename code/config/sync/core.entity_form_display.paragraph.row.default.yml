@@ -1,0 +1,64 @@
+uuid: 39da812d-7628-4e5c-a773-f948163a4f72
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.row.field_par_constraint
+    - field.field.paragraph.row.field_par_description
+    - field.field.paragraph.row.field_par_paragraphs
+    - paragraphs.paragraphs_type.row
+  module:
+    - cpl_paragraphs
+    - field_group
+third_party_settings:
+  field_group:
+    group_container:
+      children:
+        - field_par_constraint
+      parent_name: ''
+      weight: 1
+      format_type: details
+      format_settings:
+        id: ''
+        classes: ''
+        open: false
+        required_fields: false
+      label: Container
+      region: content
+_core:
+  default_config_hash: jfn2nIBW1ZHtOVPPpmPQSGlVHUIAfwiDxAwkonR42lg
+id: paragraph.row.default
+targetEntityType: paragraph
+bundle: row
+mode: default
+content:
+  field_par_constraint:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_par_description:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_par_paragraphs:
+    weight: 2
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      add_mode: button
+      form_display_mode: default
+      default_paragraph_type: column
+    third_party_settings: {  }
+    type: cpl_paragraphs_widget
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

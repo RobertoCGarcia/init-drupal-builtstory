@@ -1,0 +1,11 @@
+uuid: 1298b87a-beeb-4034-b1f0-511ae49dba1e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: mEDmiK3Is55toF8FrdPpnls87EijSMJGtaVPtQQJSgo
+id: row
+label: Row
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

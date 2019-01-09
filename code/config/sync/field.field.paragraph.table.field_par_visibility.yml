@@ -1,0 +1,25 @@
+uuid: 057ce943-5e18-4479-a4fd-5f1ce1c6c407
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_visibility
+    - paragraphs.paragraphs_type.table
+  module:
+    - options
+_core:
+  default_config_hash: gMDgGSa7Rbbs6BDCsLlK2hVan8NHcG7ghdauWQhNww4
+id: paragraph.table.field_par_visibility
+field_name: field_par_visibility
+entity_type: paragraph
+bundle: table
+label: Visibility
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: VA
+default_value_callback: ''
+settings: {  }
+field_type: list_string

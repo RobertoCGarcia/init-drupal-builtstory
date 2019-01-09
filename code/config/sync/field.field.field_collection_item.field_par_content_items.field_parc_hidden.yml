@@ -1,0 +1,25 @@
+uuid: 585d7b37-5240-4b96-802b-19b4a4c214e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_parc_hidden
+    - field_collection.field_collection.field_par_content_items
+_core:
+  default_config_hash: rOUN_gBPZjVpXZa3FOOvt2NR8qE7QCMBepnEXXUN_sw
+id: field_collection_item.field_par_content_items.field_parc_hidden
+field_name: field_parc_hidden
+entity_type: field_collection_item
+bundle: field_par_content_items
+label: Hidden
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

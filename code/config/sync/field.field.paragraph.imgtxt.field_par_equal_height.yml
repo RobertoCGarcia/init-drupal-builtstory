@@ -1,0 +1,25 @@
+uuid: f610e4eb-a245-4c18-8e4d-98fed88c188b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_equal_height
+    - paragraphs.paragraphs_type.imgtxt
+_core:
+  default_config_hash: 29qNzHQ0X_wonepdiFxZVnf63hiMnbZCpg3oP5X3vvg
+id: paragraph.imgtxt.field_par_equal_height
+field_name: field_par_equal_height
+entity_type: paragraph
+bundle: imgtxt
+label: 'Equal Height'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

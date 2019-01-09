@@ -1,0 +1,25 @@
+uuid: b4734baa-b609-4f19-b93f-8f5c8326ad71
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_comment_ref
+    - paragraphs.paragraphs_type.imgtxt
+_core:
+  default_config_hash: MdGMWlVCdPE03Qu491AKOjvd43xCPSk4qEkCFr9MB1E
+id: paragraph.imgtxt.field_par_comment_ref
+field_name: field_par_comment_ref
+entity_type: paragraph
+bundle: imgtxt
+label: 'Displayed content: comment reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

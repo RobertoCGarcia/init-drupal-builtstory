@@ -1,0 +1,8 @@
+uuid: 34ea344f-e4e8-402d-b8c0-1211f2d67908
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 90xsBRiopEpI_R_K3T1NnVXWVg20nhWvj07NhI3M414
+id: field_social_icons
+label: field_social_icons

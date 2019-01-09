@@ -1,0 +1,11 @@
+uuid: 83cba5af-8e29-4ff7-98a7-3ebfe70ee31b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: qkWHy8CD_BHYPl-O9syojSlqfJfsDGXcT--jax3Qxf4
+id: blogvideo
+label: 'Blog Video'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

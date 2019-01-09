@@ -1,0 +1,80 @@
+uuid: 02836bac-de4f-4abc-be7b-a472a22c41d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.txt.field_par_background_color
+    - field.field.paragraph.txt.field_par_background_file
+    - field.field.paragraph.txt.field_par_background_file_pos
+    - field.field.paragraph.txt.field_par_class
+    - field.field.paragraph.txt.field_par_constraint
+    - field.field.paragraph.txt.field_par_constraint_text
+    - field.field.paragraph.txt.field_par_description
+    - field.field.paragraph.txt.field_par_heading_color
+    - field.field.paragraph.txt.field_par_link
+    - field.field.paragraph.txt.field_par_link_options
+    - field.field.paragraph.txt.field_par_parallax
+    - field.field.paragraph.txt.field_par_position
+    - field.field.paragraph.txt.field_par_reveal_direction
+    - field.field.paragraph.txt.field_par_reveal_direction_sec
+    - field.field.paragraph.txt.field_par_reveal_type
+    - field.field.paragraph.txt.field_par_tags
+    - field.field.paragraph.txt.field_par_text_1
+    - field.field.paragraph.txt.field_par_text_2
+    - field.field.paragraph.txt.field_par_text_box_options
+    - field.field.paragraph.txt.field_par_visibility
+    - field.field.paragraph.txt.field_par_vmargin
+    - field.field.paragraph.txt.field_par_vpadding
+    - paragraphs.paragraphs_type.txt
+  module:
+    - options
+_core:
+  default_config_hash: mu-LCpCz2owhZrfjF9isF1VN64Iujx7ck9gjOY7AsvQ
+id: paragraph.txt.preview
+targetEntityType: paragraph
+bundle: txt
+mode: preview
+content:
+  field_par_description:
+    type: string
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_par_heading_color:
+    type: list_default
+    weight: 2
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_par_text_box_options:
+    type: list_default
+    weight: 1
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_par_background_color: true
+  field_par_background_file: true
+  field_par_background_file_pos: true
+  field_par_class: true
+  field_par_constraint: true
+  field_par_constraint_text: true
+  field_par_link: true
+  field_par_link_options: true
+  field_par_parallax: true
+  field_par_position: true
+  field_par_reveal_direction: true
+  field_par_reveal_direction_sec: true
+  field_par_reveal_type: true
+  field_par_tags: true
+  field_par_text_1: true
+  field_par_text_2: true
+  field_par_visibility: true
+  field_par_vmargin: true
+  field_par_vpadding: true

@@ -1,0 +1,32 @@
+uuid: 99e95ee8-b82d-44a7-9e7a-997e9629eec0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_parallax_item
+    - field_collection.field_collection.field_par_parallax_item
+    - paragraphs.paragraphs_type.special
+  module:
+    - field_collection
+_core:
+  default_config_hash: ufNrd_NcMMAFsENBavP8zQN-j6jL62hUwytRWcKlvJM
+id: paragraph.special.field_par_parallax_item
+field_name: field_par_parallax_item
+entity_type: paragraph
+bundle: special
+label: 'Parallax Item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:field_collection_item'
+  handler_settings:
+    target_bundles:
+      field_par_parallax_item: field_par_parallax_item
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: field_collection

@@ -1,0 +1,23 @@
+uuid: 2656b386-2b5b-4921-88a2-718f34899b5d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_displayed_con
+    - paragraphs.paragraphs_type.table
+  module:
+    - options
+_core:
+  default_config_hash: '-NdpnlRv27oSfzKKjFQ2eqojOtW5g_Fevgj_-2BHkN8'
+id: paragraph.table.field_par_displayed_con
+field_name: field_par_displayed_con
+entity_type: paragraph
+bundle: table
+label: 'Displayed content'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

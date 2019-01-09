@@ -1,0 +1,33 @@
+uuid: 3e80e9a2-ca81-476e-a9b1-ba55ab8397c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cpl_form_reference
+    - field.storage.block_content.body
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    text_paragraph_html: text_paragraph_html
+    article_html: '0'
+    basic_html: '0'
+    restricted_html: '0'
+    full_html: '0'
+    plain_text: '0'
+_core:
+  default_config_hash: g6BQl172CWq4sd31mM7B1lNDvsOesPwyROT-Zgs5iZ0
+id: block_content.cpl_form_reference.body
+field_name: body
+entity_type: block_content
+bundle: cpl_form_reference
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

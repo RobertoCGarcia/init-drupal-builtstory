@@ -1,0 +1,16 @@
+uuid: 90169079-0d42-4095-ba3c-4e2a086ff55f
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_library
+third_party_settings:
+  paragraphs_library:
+    allow_library_conversion: true
+_core:
+  default_config_hash: HwtJWC1-vaCc4Q1OuJ4yabCmKfrvbD5EXgU_7m0feh8
+id: txt
+label: 'Text Column'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

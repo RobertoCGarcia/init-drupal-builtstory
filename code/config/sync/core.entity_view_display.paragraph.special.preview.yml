@@ -1,0 +1,50 @@
+uuid: 5dc52fb4-868f-4dc3-936b-67597a7b2e4d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.special.field_par_class
+    - field.field.paragraph.special.field_par_constraint
+    - field.field.paragraph.special.field_par_description
+    - field.field.paragraph.special.field_par_image_after
+    - field.field.paragraph.special.field_par_image_before
+    - field.field.paragraph.special.field_par_parallax_item
+    - field.field.paragraph.special.field_par_special_type
+    - field.field.paragraph.special.field_par_visibility
+    - field.field.paragraph.special.field_par_vmargin
+    - field.field.paragraph.special.field_par_vpadding
+    - paragraphs.paragraphs_type.special
+  module:
+    - options
+_core:
+  default_config_hash: v_PRWEScBEZTHnJdjf1_6vjeat9tBbH4y6exiVTtwd0
+id: paragraph.special.preview
+targetEntityType: paragraph
+bundle: special
+mode: preview
+content:
+  field_par_description:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_par_special_type:
+    type: list_key
+    weight: 1
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_par_class: true
+  field_par_constraint: true
+  field_par_image_after: true
+  field_par_image_before: true
+  field_par_parallax_item: true
+  field_par_visibility: true
+  field_par_vmargin: true
+  field_par_vpadding: true

@@ -1,0 +1,25 @@
+uuid: 1662a260-b1c4-4e05-aa86-da1e36e56e22
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_vmargin
+    - paragraphs.paragraphs_type.special
+  module:
+    - options
+_core:
+  default_config_hash: 8LGl9xr6LyR1VzEe2tKb2eWpmyo4FGjEb_0uEy3w0CU
+id: paragraph.special.field_par_vmargin
+field_name: field_par_vmargin
+entity_type: paragraph
+bundle: special
+label: 'Vertical Margin'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: NP
+default_value_callback: ''
+settings: {  }
+field_type: list_string

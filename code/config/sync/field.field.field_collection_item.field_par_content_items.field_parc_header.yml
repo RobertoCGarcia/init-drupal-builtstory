@@ -1,0 +1,33 @@
+uuid: 0ced4bf0-a3be-4a6d-ab16-c54b5a14ea62
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_parc_header
+    - field_collection.field_collection.field_par_content_items
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    restricted_html: restricted_html
+    article_html: '0'
+    basic_html: '0'
+    text_paragraph_html: '0'
+    paragraph_custom_html: '0'
+    full_html: '0'
+    plain_text: '0'
+_core:
+  default_config_hash: W2wzOnaiOBO-htfA1nYasifpm6hzWjnIt0yoSbXhF6E
+id: field_collection_item.field_par_content_items.field_parc_header
+field_name: field_parc_header
+entity_type: field_collection_item
+bundle: field_par_content_items
+label: Header
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

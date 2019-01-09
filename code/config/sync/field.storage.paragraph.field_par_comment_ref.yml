@@ -1,0 +1,22 @@
+uuid: ffe930aa-2403-4099-8f13-b37484433f47
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: OF8xCZlxFlYpfO8ZTUQWpiaTXWcVG51OeHmEkAsK9U8
+id: paragraph.field_par_comment_ref
+field_name: field_par_comment_ref
+entity_type: paragraph
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

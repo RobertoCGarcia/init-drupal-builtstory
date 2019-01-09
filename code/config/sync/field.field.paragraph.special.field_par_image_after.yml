@@ -1,0 +1,59 @@
+uuid: 349ace3a-d7b5-480f-82c9-e3bb185ce07e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_image_after
+    - paragraphs.paragraphs_type.special
+  module:
+    - filefield_paths
+    - image
+third_party_settings:
+  filefield_paths:
+    enabled: true
+    file_path:
+      value: '[date:custom:Y]-[date:custom:m]'
+      options:
+        slashes: false
+        pathauto: false
+        transliterate: false
+    redirect: false
+    retroactive_update: false
+    active_updating: false
+    file_name:
+      value: '[file:ffp-name-only-original].[file:ffp-extension-original]'
+      options:
+        slashes: false
+        pathauto: false
+        transliterate: false
+_core:
+  default_config_hash: 8PQddJH8tFN1vDGTI-y1ri_y8dPgREWD_CzdfHfD_iM
+id: paragraph.special.field_par_image_after
+field_name: field_par_image_after
+entity_type: paragraph
+bundle: special
+label: 'Image After'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

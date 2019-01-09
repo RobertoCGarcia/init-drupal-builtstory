@@ -1,0 +1,21 @@
+uuid: 2d520063-5ebe-4502-975e-a62f0d0d3979
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_meta_title
+    - node.type.page
+_core:
+  default_config_hash: Kna5URegSAnzDkiWG11s-1kKNqbyZ8mEDdop7Z5FGlM
+id: node.page.field_meta_title
+field_name: field_meta_title
+entity_type: node
+bundle: page
+label: 'Meta Title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

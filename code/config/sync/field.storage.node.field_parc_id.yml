@@ -1,0 +1,23 @@
+uuid: 3d6e6a21-395c-4569-a640-9e09e4181b86
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: YtiBAdY3qOiYY9wrs7qNR1LPYl58pwESNIgPgAtYCZs
+id: node.field_parc_id
+field_name: field_parc_id
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

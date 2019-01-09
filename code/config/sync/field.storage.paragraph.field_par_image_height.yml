@@ -1,0 +1,38 @@
+uuid: 81485d79-da8b-44fd-88e4-d131b018787b
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: 8Rg0hVsQD1XtJmaXaChPETQulsuiTGWYIEMxI8KOvWg
+id: paragraph.field_par_image_height
+field_name: field_par_image_height
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: H1
+      label: 'Height 1'
+    -
+      value: H2
+      label: 'Height 2'
+    -
+      value: HF
+      label: 'Full screen'
+    -
+      value: F1
+      label: 'Height 1 for large, full screen for mobile'
+    -
+      value: F2
+      label: 'Height 2 for large, full screen for mobile'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

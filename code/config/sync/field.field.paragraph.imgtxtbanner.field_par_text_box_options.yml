@@ -1,0 +1,25 @@
+uuid: bbb3561b-00c8-404e-9c9d-6c091e31c85b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_text_box_options
+    - paragraphs.paragraphs_type.imgtxtbanner
+  module:
+    - options
+_core:
+  default_config_hash: Lvg0zXjlI-lwbjfOXMdzQEqGmXuhCybUtRJRRvExmHQ
+id: paragraph.imgtxtbanner.field_par_text_box_options
+field_name: field_par_text_box_options
+entity_type: paragraph
+bundle: imgtxtbanner
+label: 'Text Box Options'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: TC1
+default_value_callback: ''
+settings: {  }
+field_type: list_string

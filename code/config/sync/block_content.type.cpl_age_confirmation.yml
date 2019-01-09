@@ -1,0 +1,10 @@
+uuid: ce9ae208-a935-42b7-9c7b-59ac7724d5e7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: hOp19uyjtkPF3kk_dtcoclsNtw68IHZB1Fat6N-Encw
+id: cpl_age_confirmation
+label: 'CPL Age Confirmation'
+revision: 0
+description: 'Displays age confirmation in popup block.'

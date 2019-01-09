@@ -1,0 +1,41 @@
+uuid: 61d27d72-61cb-4314-9cc6-e66a7b8e7209
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: SnCmRCS9sLMCUm_k3CP7yzmg1EGSsZeG_I19wKexEr8
+id: paragraph.field_par_displayed_con
+field_name: field_par_displayed_con
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: CS
+      label: 'Custom display'
+    -
+      value: RN
+      label: 'Refer content'
+    -
+      value: RP
+      label: 'Refer product'
+    -
+      value: RM
+      label: 'Refer media'
+    -
+      value: SG
+      label: 'Dynamic reference'
+    -
+      value: CR
+      label: 'Comment reference'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

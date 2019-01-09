@@ -1,0 +1,16 @@
+uuid: 7ed5f0d1-8ecf-4089-a2cb-51c50aa27765
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_library
+third_party_settings:
+  paragraphs_library:
+    allow_library_conversion: true
+_core:
+  default_config_hash: '-92rmX2BIkP_SFGJ1N7dLqgO8UuCx0nNOpSsKgJ-YnI'
+id: icntxt
+label: 'Icon Text'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

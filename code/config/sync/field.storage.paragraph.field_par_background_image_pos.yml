@@ -1,0 +1,38 @@
+uuid: b6a8da8a-d823-4a14-b272-51810512b896
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: wEY3D6StwXhnLuHhkLBiPdNNEa1ETYRCFYzshG3gc98
+id: paragraph.field_par_background_image_pos
+field_name: field_par_background_image_pos
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: FC
+      label: Center
+    -
+      value: FR
+      label: Right
+    -
+      value: FL
+      label: Left
+    -
+      value: ML
+      label: 'Center with Mobile Left'
+    -
+      value: MR
+      label: 'Center with Mobile Right'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

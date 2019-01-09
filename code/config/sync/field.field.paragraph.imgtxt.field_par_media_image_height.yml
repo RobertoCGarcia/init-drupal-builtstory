@@ -1,0 +1,23 @@
+uuid: bf94ffb3-b6fb-43a1-923f-ed384256cf2d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_media_image_height
+    - paragraphs.paragraphs_type.imgtxt
+  module:
+    - options
+_core:
+  default_config_hash: cyjHEgICWTcHzqp6VHV87n8QfH1vC7TxFCwgG6Nxd1g
+id: paragraph.imgtxt.field_par_media_image_height
+field_name: field_par_media_image_height
+entity_type: paragraph
+bundle: imgtxt
+label: 'Media Image Height'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

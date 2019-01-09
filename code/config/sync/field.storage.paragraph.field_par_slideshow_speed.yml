@@ -1,0 +1,32 @@
+uuid: 62864383-4721-4384-9b04-18781b30d246
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: VZCuXm78SYBAgFLaauTg9iI0r0MzrfPs3UU0uPOKhxc
+id: paragraph.field_par_slideshow_speed
+field_name: field_par_slideshow_speed
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: SS
+      label: Slow
+    -
+      value: SN
+      label: Normal
+    -
+      value: SF
+      label: Fast
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

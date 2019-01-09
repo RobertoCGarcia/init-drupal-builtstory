@@ -1,0 +1,29 @@
+uuid: 290d9f9b-7d6a-4c08-9092-e32bd1b05028
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: 2CaCzMyE2-fxUIcU_wUtR_ZQQJP74xKtsN8sgZQFRRk
+id: paragraph.field_par_special_type
+field_name: field_par_special_type
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: PS
+      label: 'Parallax Slider'
+    -
+      value: AB
+      label: Before-After
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: 79c14dfd-3a27-4207-835f-5576f507784d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_reveal_type
+    - paragraphs.paragraphs_type.imgtxt
+  module:
+    - options
+_core:
+  default_config_hash: kUmjSkT5q4S0kv2i4XLJrbI8_x0aRhBVh9Xjyr5H86g
+id: paragraph.imgtxt.field_par_reveal_type
+field_name: field_par_reveal_type
+entity_type: paragraph
+bundle: imgtxt
+label: 'Reveal Type'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
