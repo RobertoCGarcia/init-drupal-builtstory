@@ -43,6 +43,21 @@ services:
       - 'traefik.port=9000'
       - 'traefik.frontend.rule=Host:adminer.${PROJECT_BASE_URL}'
 
+
+
+  gulp:
+    build: docker/gulp
+    container_name: "${PROJECT_NAME}_gulp"
+    environment:
+      GULP_THEME: ${PROJECT_THEME}
+    volumes_from:
+      - php
+#    ports:
+#      - "3000:3000"
+#      - "3001:3001"
+    working_dir: /var/www/html/web/themes/custom
+    
+
 #  solr:
 #    labels:
 #      - 'traefik.backend=solr'
