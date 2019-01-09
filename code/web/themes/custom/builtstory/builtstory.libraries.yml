@@ -1,0 +1,12 @@
+global:
+  version: VERSION
+  css:
+    base:
+      fonts/stylesheet.css: {}
+      css/builtstory.css: {}
+  js:
+    js/builtstory.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once
