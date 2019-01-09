@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4634c11d997be92471efa2c8e2be6db6",
+    "content-hash": "1c2976219004c9e6d51f61dccea29a2d",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -958,11 +958,11 @@
         },
         {
             "name": "creativepropulsionlabs/cpl_paragraphs",
-            "version": "dev-master",
+            "version": "dev-fix-cpl-blog-dependency-error",
             "source": {
                 "type": "git",
                 "url": "git@github.com:creativepropulsionlabs/cpl_paragraphs.git",
-                "reference": "4a0c7526db16953728b4cd1c1de884f843a6fa3c"
+                "reference": "38bdfeea27dae21af9a9a41a08e506ba9e19220f"
             },
             "require": {
                 "drupal/allowed_formats": "*",
@@ -987,7 +987,7 @@
             },
             "type": "drupal-module",
             "description": "CPL Base Paragraphs",
-            "time": "2019-01-09T07:54:36+00:00"
+            "time": "2019-01-09T15:43:08+00:00"
         },
         {
             "name": "creativepropulsionlabs/cpl_starter_kit",
@@ -11870,7 +11870,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "creativepropulsionlabs/cpl_starter_kit": 20
+        "creativepropulsionlabs/cpl_starter_kit": 20,
+        "creativepropulsionlabs/cpl_paragraphs": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
