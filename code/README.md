@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/drupal-composer/drupal-project.svg?branch=8.x)](https://travis-ci.org/drupal-composer/drupal-project)
 
+TEST BRANCH FIX RAKUTEN
 This project template provides a starter kit for managing your site
 dependencies with [Composer](https://getcomposer.org/).
 
